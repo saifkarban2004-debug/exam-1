@@ -1,3 +1,10 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
 :root {
         --purple: #6c00d9;
         --purple-light: #7c3aed;
@@ -61,6 +68,7 @@
         left: 50% !important;
         transform: translateX(-60%) !important;
         top: 110% !important;
+        overflow: hidden;
       }
 
       .dropdown-section-title {
@@ -248,11 +256,10 @@
 .f-sm-1{
   font-size: 1rem !important;
 }
-}
 .p-hero{
     font-size: 1.5rem;
 }
-
+}
 /* Custom Purple Button to match the design */
 .btn-search {
     background-color: #9d00ff; /* Matches the vibrant purple */
